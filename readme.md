@@ -1,1 +1,1 @@
-## https://bwire.github.io/cv/
+https://bwire.github.io/cv/

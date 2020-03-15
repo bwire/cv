@@ -1,0 +1,28 @@
+html {
+	@include font('Myriad Pro');
+	font-size: $font-size-def;
+	line-height: $line-height-def;
+}
+
+body {
+	line-height: $line-height-base;
+	color: $color-main;
+	background-color: $color-background;
+	@include font($mainfont: 'Myriad Pro', $size: $font-size-textinfo);	
+
+	h1 {
+		@include font($weight: bold, $size: $font-size-header);
+	}	
+
+	h2 {
+		margin: 20px 0;
+		padding-bottom: 5px;
+		@include font($weight: bold, $size: $font-size-subheader);	
+		border-bottom: 1px solid $color-underscore;
+	}
+
+	h4 {
+		margin: 10px 0;
+		@include font('Myriad Pro', bold, $font-size-textinfo);		
+	}
+}

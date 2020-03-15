@@ -1,0 +1,15 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "Software developer CV",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "style": "sass --watch ./sass/styles.scss ./styles.css"
+  },
+  "author": "barbedwire",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.26.3"
+  }
+}

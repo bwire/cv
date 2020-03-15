@@ -1,0 +1,19 @@
+// abstracts
+@import './abstracts/constants';
+@import './abstracts/mixins';
+
+// base
+@import './base/reset';
+@import './base/base';
+
+// components
+@import './components/infoblock';
+@import './components/maininfo';
+
+// layout 
+@import './layout/wrapper';
+@import './layout/header';
+@import './layout/footer';
+
+
+

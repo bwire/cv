@@ -1,0 +1,7 @@
+.footer {
+	@include stripe();
+	margin-top: 40px;
+	a {
+		color: $color-white;
+	}
+}

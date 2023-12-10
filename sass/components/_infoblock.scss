@@ -1,15 +1,18 @@
 .infoblock {
-	padding: 10px 0;
-	ul {
-		padding-left: 20px;
-		list-style: disc;
-	}
+  padding: 10px 0;
+  ul {
+    padding-left: 20px;
+    list-style: disc;
+  }
 
-	li {
-		margin: 5px 0;
-		color: $color-main;
-		a {
-			color: $color-link;
-		}
-	}
+  li {
+    margin: 5px 0;
+    color: $color-main;
+
+    div {
+      a {
+        color: $color-link;
+      }
+    }
+  }
 }
